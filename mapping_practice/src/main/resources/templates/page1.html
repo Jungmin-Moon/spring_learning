@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang = "en" xmlns:th = "https://www.thymeleaf.org">
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Page 1</title>
+</head>
+
+<body>
+	<h1>Welcome, <span th:text = "${username}"></span> to page 1</h1>
+	<a href = "/page1?page2">Go to Page 2</a>
+	<a href = "/page1?logout">Log out</a>
+</body>
+
+</html>
